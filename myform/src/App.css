@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+}
+.container header{
+  margin: 45px auto  ;
+}
+
+.form{
+  width:40%;
+  margin:auto;
+  border: solid black 1px;
+  border-radius:10px;
+}
+
+.formGroup{
+  display:flex;
+  flex-direction: column;
+}
+
+.formGroup label{
+  width: 180px;
+  margin:auto;
+}
+
+.checkboxes{
+  margin: 10px auto;
+  display:flex;
+  flex-direction: column;
+  
+}
+.checkboxes button{
+  width: 25%;
+  margin:15px auto 5px auto;
+  font-size:1.1rem;
+}
+.error{
+  color:red;
+  margin-top: 15px;
+}
