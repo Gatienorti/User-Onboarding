@@ -25,8 +25,8 @@ function App() {
 
   const postFriend = (newFriend) => {
     axios
-    .post('https://reqres.in/api/users', newFriend)
-    .then((res)=> {
+      .post('https://reqres.in/api/users', newFriend)
+      .then((res)=> {
       setForm([...form, res.data])
     })
     .catch((err) =>{
