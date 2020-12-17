@@ -37,3 +37,10 @@
   color:red;
   margin-top: 15px;
 }
+
+@media(max-width:600px){
+
+  .checkboxes button{
+    width:35%;
+  }
+}
